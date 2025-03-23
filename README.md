@@ -7,7 +7,7 @@ The **Reddit Sentiment Analysis Dashboard** is a **Streamlit-based web applicati
 
 ## Live Demo 🚀  
 Check out the live version of this app on Streamlit:  
-👉 [Reddit Sentiment Analysis Dashboard](https://your-streamlit-app-link.streamlit.app/)  
+👉 [Reddit Sentiment Analysis Dashboard]([https://your-streamlit-app-link.streamlit.app/](https://reddit-sentiment-analyzer-up5sdrnhsntf6olf2eknbt.streamlit.app/))  
 
 
 ## ✨ Features
