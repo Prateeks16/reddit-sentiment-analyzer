@@ -15,7 +15,12 @@ The **Reddit Sentiment Analysis Dashboard** is a **Streamlit-based web applicati
 ✅ **Download the analyzed data** as a CSV file
 
 ## 🎥 Demo
-![Dashboard Preview](https://user-images.githubusercontent.com/demo-preview.gif)  
+### Dashboard Overview
+![Dashboard](screenshots/dashboard.png)
+
+### CHarts Overview
+![Dashboard](screenshots/charts.png)
+
 
 ## 📦 Installation
 ### 1️⃣ Clone the Repository
