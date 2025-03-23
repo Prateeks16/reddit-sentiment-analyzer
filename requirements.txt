@@ -1,0 +1,11 @@
+streamlit
+pandas
+matplotlib
+wordcloud
+praw
+nltk
+torch
+transformers
+requests
+python-dotenv
+vaderSentiment
