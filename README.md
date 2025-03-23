@@ -5,6 +5,11 @@
 ## 🚀 Overview
 The **Reddit Sentiment Analysis Dashboard** is a **Streamlit-based web application** that fetches Reddit posts, preprocesses text, and analyzes sentiment using a **Hugging Face RoBERTa model**. The app provides insightful **visualizations**, such as bar charts, pie charts, word clouds, and sentiment trends, along with the option to fetch **related news articles** via the News API.
 
+## Live Demo 🚀  
+Check out the live version of this app on Streamlit:  
+👉 [Reddit Sentiment Analysis Dashboard](https://your-streamlit-app-link.streamlit.app/)  
+
+
 ## ✨ Features
 ✅ Fetch Reddit posts based on **subreddit, query, and date range**
 ✅ **Preprocess text** by removing URLs, stopwords, and lemmatizing words
