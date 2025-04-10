@@ -10,7 +10,6 @@ import nltk
 import os
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer  # Still imported but not used
 from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 from transformers import pipeline  # Added for sentiment analysis
