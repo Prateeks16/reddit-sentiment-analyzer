@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib
-matplotlib.use('Agg')  # Force non-interactive backend
+matplotlib.use('Agg') 
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import praw
@@ -15,11 +15,9 @@ from dotenv import load_dotenv
 from transformers import pipeline 
 import requests  
 
-# Download required NLTK data
+
 nltk.download('stopwords')
 nltk.download('wordnet')
-
-# Load environment variables from .env file
 load_dotenv()
 
 # Cache the sentiment classifier to avoid reloading
@@ -28,7 +26,6 @@ def load_sentiment_classifier():
     with st.spinner("Loading sentiment analysis model (this may take a moment on first run)..."):
         return pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment", framework="pt")
 
-# Initialize with error handling
 try:
     sentiment_classifier = load_sentiment_classifier()
 except Exception as e:
@@ -102,7 +99,7 @@ def fetch_news_articles(query, api_key):
 if 'analyzed' not in st.session_state:
     st.session_state.analyzed = False
 
-# Streamlit app layout
+# Streamlit app 
 st.title("Reddit Sentiment Analysis 🗣️")
 
 # Show sentiment analysis description and how-to-use guide only if not analyzed
@@ -251,4 +248,5 @@ if st.sidebar.button("Analyze"):
                         file_name=f"reddit_sentiment_{subreddit}_{query}.csv",
                         mime="text/csv",
                     )
+
 
