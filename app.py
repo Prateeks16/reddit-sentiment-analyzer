@@ -12,8 +12,8 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
-from transformers import pipeline  # Added for sentiment analysis
-import requests  # Added for News API integration
+from transformers import pipeline 
+import requests  
 
 # Download required NLTK data
 nltk.download('stopwords')
@@ -251,3 +251,4 @@ if st.sidebar.button("Analyze"):
                         file_name=f"reddit_sentiment_{subreddit}_{query}.csv",
                         mime="text/csv",
                     )
+
